@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/manhbeo/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/manhbeo/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/manhbeo/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/manhbeo/catkin_ws/src/hector_slam/hector_mapping/include/**",
+        "/home/manhbeo/catkin_ws/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/manhbeo/catkin_ws/src/hello_world/include/**",
+        "/home/manhbeo/catkin_ws/src/jetson_nano_bot/localization_data_pub/include/**",
+        "/home/manhbeo/catkin_ws/src/jetson_nano_bot/navstack_pub/include/**",
+        "/home/manhbeo/catkin_ws/src/rb_letan/include/**",
+        "/home/manhbeo/catkin_ws/src/robot_setup_tf/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
