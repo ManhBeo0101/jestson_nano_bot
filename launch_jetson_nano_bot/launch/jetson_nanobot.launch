@@ -3,4 +3,17 @@
     <param name="port" value="/dev/ttyUSB0"/>
     <param name="baud" value="115200"/>
   </node>
+  
+  <!-- điều khiển từ xa -->
+  <node pkg="rqt_robot_steering" type="rqt_robot_steering" name="rqt_robot_steering">
+  </node>
+  
+  <!-- Wheel Odometry Publisher -->
+<!-- Subscribe: /right_ticks, /left_ticks, /initial_2d -->
+<!-- Publish: /odom_data_euler, /odom_data_quat -->
+
+<node pkg="localization_data_pub" type="ekf_odom_pub" name="ekf_odom_pub">
+</node> 
+
+
 </launch>
